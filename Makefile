@@ -1,4 +1,4 @@
-.PHONY: upload
+.PHONY: publish clean
 
 spice-rack.stl: spice-rack.scad heart-icon.svg infinity.svg
 	openscad -o $@ $<
