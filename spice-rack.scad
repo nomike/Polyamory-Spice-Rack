@@ -6,7 +6,8 @@ side_wall_width = 8;
 
 front_height = 55;
 front_width = 8;
-front_bar_type = "round"; // round or rectangular
+front_bar_type = "square"; // round or square
+front_bar_angle = 0;           // if front_bar_type is round, this does not havbe any effect
 front_bar_width = 6;
 front_bar_height = 50;
 
@@ -46,8 +47,8 @@ union() {
     // Front
     difference() {
         cube([front_width, side_wall_width, front_height]);
-        if(front_bar_type == "rectangular") {
-            translate([0, wall_thickness, front_height - wall_thickness - front_bar_width]) cube([front_width, front_bar_height, front_bar_width]);
+        if(front_bar_type == "square") {
+            color("blue") translate([front_width / 2, side_wall_width / 2, front_height - wall_thickness - front_bar_width]) rotate([0, front_bar_angle, 0]) cube([front_bar_width, side_wall_width, front_bar_width], center=true);
         } else {
             translate([front_width / 2, side_wall_width, front_bar_height]) rotate([90, 0, 0]) cylinder(d=front_bar_width, h=side_wall_width);
         }
