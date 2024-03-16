@@ -20,7 +20,7 @@ screw_hole_lower_diameter = 6;
 screw_hole_length = 12;
 
 
-_base_height = floor_board_height + (wall_thickness * 2);
+
 screw_hole_height = 50;
 
 
