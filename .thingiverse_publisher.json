@@ -8,15 +8,21 @@
       "kitchen",
       "Storage"
     ],
-    "description": "# Polyamory Spice Rack\n\nThis is a simple spice rack with a polyamory logo giving structural support.\n\n# How to use\n\nBuy a wooden bar and cut it to the desired length. Measure width and height of the bar in mm and change the values of `front_bar_width` and `front_bar_height` accordingly. 5x5 mm works good, but use whatever is available.\n\nFor the base of the rack you need a flat piece of wood, cut to the same length. Measure the width and height of the base in mm and change the values of `base_width` and `base_height` accordingly.\n\n# Issues\n\nThe polyamory logo is not adjusting automically to design changes. For now, you need to tweak it's parameters manually. Look especially at the `translate` and `scale` parameters on the y and z axis.\n\n# Attributions\n\n- [svg symbol infinity](https://svgsilh.com/image/1837436.html) (public domain), edited in InkScape and saved as [infinity.svg](infinity.svg).\n- [Heart Icon](https://uxwing.com/wp-content/themes/uxwing/download/relationship-love/heart-icon.svg), ([can be used in personal, commercial, and client projects without any attribution or credit](https://uxwing.com/license/)) edited in InkScape and saved as [heart-icon.svg](heart-icon.svg).\n\nThe rest is my original design.\n",
-    "instructions": "Print and enjoy",
     "is_wip": true,
     "license": "gpl3",
     "id": 6482786
   },
-  "files": [
-    "spice-rack.scad",
-    "spice-rack.stl"
-  ],
-  "images": []
+  "files": {
+    "spice-rack.scad": {
+      "id": 14288118,
+      "name": "spice-rack.scad",
+      "url": "https://www.thingiverse.com/download:14288118"
+    },
+    "spice-rack.stl": {
+      "id": 14288119,
+      "name": "spice-rack.stl",
+      "url": "https://www.thingiverse.com/download:14288119"
+    }
+  },
+  "images": {}
 }
