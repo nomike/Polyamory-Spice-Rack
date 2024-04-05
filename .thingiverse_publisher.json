@@ -24,5 +24,16 @@
       "url": "https://www.thingiverse.com/download:14288119"
     }
   },
-  "images": {}
+  "images": {
+    "photos/rack1.jpg": {
+      "id": 20959608,
+      "name": "5468c777-a510-42fc-b3d2-621ee0cf189f.jpg",
+      "url": "https://www.thingiverse.com/image:20959608"
+    },
+    "photos/rack2.jpg": {
+      "id": 20959609,
+      "name": "e8644214-ed0a-4654-8cec-6926e13cc25d.jpg",
+      "url": "https://www.thingiverse.com/image:20959609"
+    }
+  }
 }
