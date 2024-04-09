@@ -1,0 +1,14 @@
+{
+    "parameterSets": {
+        "left": {
+            "position": "left"
+        },
+        "center": {
+            "position": "center"
+        },
+        "right": {
+            "position": "right"
+        }
+    },
+    "fileFormatVersion": "1"
+}
