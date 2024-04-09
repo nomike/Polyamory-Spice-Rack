@@ -1,11 +1,15 @@
-.PHONY: publish clean
+# Output directory for generated STL files
+OUTPUT_DIR = output
 
-spice-rack.stl: spice-rack.scad heart-icon.svg infinity.svg
-	openscad -o $@ $<
+.PHONY: all generate_stls clean
 
-publish: spice-rack.stl
-	thingiverse-publisher
+all: $(OUTPUT_DIR) generate_stls
 
-clean: 
-	rm -f spice-rack.stl
-	
+$(OUTPUT_DIR):
+	mkdir -p $@
+
+generate_stls:
+	openscad_stl_file_generator/generate_stls --output-dir="$(OUTPUT_DIR)"
+
+clean:
+	rm -rf $(OUTPUT_DIR)
