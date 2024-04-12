@@ -1,5 +1,5 @@
 /*
-Polyamory Spice Rack
+Parametric Polyamory Spice Rack
 
 Copyright 2024 nomike[AT]nomike[DOT]com
 
