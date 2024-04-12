@@ -20,4 +20,4 @@ The rest is my original design.
 
 #### GitHub
 
-<https://github.com/nomike/Polyamory-Spice-Rack>
+<https://github.com/nomike/parametric-polyamory-spice-rack>
